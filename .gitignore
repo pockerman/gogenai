@@ -1,0 +1,47 @@
+
+# =========================
+# Go
+# =========================
+bin/
+dist/
+*.exe
+*.out
+*.test
+*.pb.go
+*_grpc.pb.go
+
+# Go modules cache (optional local artifacts)
+vendor/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# virtual environments
+venv/
+.venv/
+
+# Python protobuf generated code
+*_pb2.py
+*_pb2_grpc.py
+
+# packaging
+build/
+dist/
+*.egg-info/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+
+# =========================
+# Logs / runtime
+# =========================
+*.log
